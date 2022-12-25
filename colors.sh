@@ -7,5 +7,5 @@ echo -e "\e[33m i am printing yellow colour \e[0m"
 echo -e "\e[34m i am printing blue colour \e[0m"
 
 #printing the foreground and background colour
-echo "\e[41;33m printing the background coloour nad text in foreground colour \e[0m"
+echo  -e "\e[41;33m printing the background coloour nad text in foreground colour \e[0m"
 
