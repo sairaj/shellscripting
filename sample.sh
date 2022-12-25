@@ -3,3 +3,5 @@
 #we can have only 1 shibang notation and eveything starting with # will be treated as comment
 
 echo "Hello World !"
+echo "Good morning"
+echo "Welcome to devops class"
