@@ -1,4 +1,5 @@
 #!/bin/bash
 # dynamic variables 
 #declaring the expressions
-date = ${date +%F}
+date = $(date +%F)
+echo "Today's date is $date"
