@@ -6,4 +6,4 @@
 echo "Hello World !"
 echo "Good morning"
 echo "Welcome to devops class"
-echo  -e "line1\nline2"
+echo  -e "line1\tline2"
