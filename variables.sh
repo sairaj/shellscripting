@@ -6,5 +6,5 @@ b=20
 c=30
 d=40
 echo "The value of a is $a"
-echo "the value of b is {a}"
+echo "the value of b is ${b}"
 echo "The value of e is $e"
