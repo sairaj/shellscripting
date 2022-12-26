@@ -34,6 +34,21 @@ Redirectors:
 
 > Redirects the output(but overrdes the existing content in the file with the current content)
 >> Redirects the output(The current output will just be appended to the existing content)
-
+2> standard error
+2>> Redirects only the standard error (The current err o/p will just be appened to the existing content)
+commands::
 df -h = disk utilization
 lsblk = list block
+
+2> = standard error output. (if error is there then only it will log other wise it wont)
+
+ls -ltr 2> std.log ---> it wont log as there is no error
+ls -ltradfasdfasfassfsa 1> error.log  --> it will log now as there is no command with those options
+
+
+So, how do capture both std.out & std.err ?
+&> Redirects both std.output & std.error
+&>> Redirects both std.output & std.error by appending
+
+standard Input:
+    <: Reading the data from a file
