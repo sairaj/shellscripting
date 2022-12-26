@@ -10,3 +10,9 @@ sample(){
 
 # calling the function
 sample
+
+# calling the function second time
+sample
+
+# calling the function third time
+sample
