@@ -11,8 +11,13 @@ sample(){
 # calling the function
 sample
 
-# calling the function second time
-sample
+stat(){
+    echo "Number of logged sessions: $(who | wc -l)"
 
-# calling the function third time
-sample
+    echo "Todays date: $(date +%F)"
+
+    echo "Load Average of system: $(uptime | awk -F : '{print $4}' | awk -F , '{print $1}')"
+}
+
+echo " Calling Stat function: "
+stat
