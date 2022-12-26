@@ -32,3 +32,8 @@ Redirectors:
 > : standard output to a file : (This will override the existing content on the file : > = 1>)
 >> : Standard Output to a file : ( But, this will not override, just appends on the top of the file )
 
+> Redirects the output(but overrdes the existing content in the file with the current content)
+>> Redirects the output(The current output will just be appended to the existing content)
+
+df -h = disk utilization
+lsblk = list block
