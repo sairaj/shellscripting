@@ -5,7 +5,7 @@
 #       opt2)   command2 ;;
 # esac
 
-$ACTION=$1
+ACTION=$1
 
 case $ACTION in
     start)
