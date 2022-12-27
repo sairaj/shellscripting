@@ -18,7 +18,7 @@
 
 c=$1
 
-if[ "$c" -eq "10" ]; then
+if [ "$c" -eq "10" ]; then
     echo "value is c 10 "
 elif [ "$c" -eq "20" ]; then
     echo "value of c is 20"
