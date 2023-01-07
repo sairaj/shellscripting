@@ -10,15 +10,15 @@ ACTION=$1
 case $ACTION in
     start)
         echo "XYZ service is starting"
-        exit 0
+        # exit 0
         ;;
     stop)
         echo "XYZ service is stopped"
-        exit 0
+        # exit 0
         ;;
     restart)
         echo "XYZ service is restarting"
-        exit 0
+        # exit 0
         ;;
     *)
         echo -e "\e[31m valid options are start or stop or restart only \e[0m"
