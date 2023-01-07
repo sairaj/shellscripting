@@ -1,18 +1,24 @@
 #!/bin/bash
 #special variables are those which were already pre-defined and those can be only used  not created
 #Ex: $0 to $9,$?,$#
-# $0 - display the name of the script
-# $? : Shows the exit code of the previous command
-# $1-$9 command line variables we can pass the variable through the command script
-#Ex: sh test.sh 100 200 300
-#here $1 = 100 ,$2 = 200,$3 = 300
-# $* or $@ :  prints all the variables used in the script
-# $#  : prints the number of variables used in the script
+# Special Variable are pre-defined, which means you cannot create them, you can only use them.
+# Here are few of the special variables.
 
-echo "The name of the script is $0"
-a=$1
+###   $0 to $n , $*  $& $#  $? 
+
+# $0       : Prints the script name 
+# $?       : Shows the exit code of the previous command  
+# $1 to $9 : command line variables ; ex : sh test.sh  100 200 300 
+# $* or $@ : Prints all the variables used in this script
+# $#       : Prints the number variables used in this script
+# In linux apart from A to Z or a to z or 0 to  9 are special characters 
+a=$1 
 b=$2 
-echo "the value of a  is $a"
-echo "the value of b is $b"
-echo "the variables used in the script are $*"
-echo "the number of variables used in the script are $#"
+
+# ex :  sh test.sh  100   200 
+
+echo "Name of the script is : $0 "
+echo "Value of a is : $a "
+echo "Value of b is : $b "
+echo "Here are the variables used in the script :  $*"
+echo "Number of variables used in the script : $# "
