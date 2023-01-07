@@ -27,3 +27,27 @@ case $ACTION in
 esac
 
 # Range of the exit code is 0 to 255, whilst 0 is success code and rest of them are either partially failure or failure, or partially success
+
+$input =$2
+case $input in
+    abc) 
+        echo "im in abc"
+        exit 1
+        ;;
+    def)
+        echo "im in def"
+        exit 1
+        ;;
+    ghi)
+        echo "Im in ghi"
+        exit 1
+        ;;
+    super)
+        echo "Im in super case"
+        exit 1
+        ;;
+    *)
+        echo "Im in default case"
+        exit 1
+        ;;
+esac
