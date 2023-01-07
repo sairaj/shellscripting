@@ -12,4 +12,5 @@ echo  -e "\e[41;33m printing the background coloour and text in foreground colou
 # How to print background color ?
 
 echo -e "\e[41;33m Welcome to colors \e[0m "
+echo -e "\e[41;33m Welcome to new colours \e[0m"
 echo -e "\e[47;32m Avatar2 is a very good file \e[0m "
