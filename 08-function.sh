@@ -10,7 +10,6 @@ sample() {
 
 # # calling the function
 # sample 
-echo " load average : $(uptime | awk -F : '{print $1, $2, $3, $NF}')"
 
 stat() {
     echo "Number of opened sessions : $(who | wc -l)" 
