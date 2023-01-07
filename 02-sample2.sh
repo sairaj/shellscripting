@@ -11,3 +11,5 @@ echo Hello World
 # -e is to enable the escape sequence characters
 
 echo -e "Line1\nLine2\nLine3\tLinex\tliney\tlinez"
+
+echo -e "\e[32e Testing boss \e[0m"
