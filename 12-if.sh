@@ -29,11 +29,11 @@ c=$1
 # fi
 
 
-if [ "$c" -lt "10"]; then
+if [ "$c" -lt "10" ]; then
     echo "Value is less than 10"
-elif [ "$c" -gt "10" && "$c" -lt "20" ]; then
+elif [ "$c" -gt "10" -a "$c" -lt "20" ]; then
     echo "value is between 10 and 20"
-elif [ "$c" -gt "20" && "$c" -lt "30" ]; then
+elif [ "$c" -gt "20" -a "$c" -lt "30" ]; then
     echo "Value is between 20 and 30"
 else
     echo "Value is greater than 30"
