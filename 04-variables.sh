@@ -33,4 +33,4 @@ echo "Printing the value of d : $d"
 # If you don't declare a value and if you try to print it, it's going to consider that value as null.
 
 # echo "Deleting the junk directory : "
-rm -rf /data/${JUNK_FOLDER_NAME}
+rm -rf /data1234/${JUNK_FOLDER_NAME}  #--->  rm -rf /data/
