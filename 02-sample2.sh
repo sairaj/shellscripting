@@ -12,4 +12,4 @@ echo Hello World
 
 echo -e "Line1\nLine2\nLine3\tLinex\tliney\tlinez"
 
-echo -e "\e[32e Testing boss \e[0m"
+echo -e "\e[32m Testing boss \e[0m"
