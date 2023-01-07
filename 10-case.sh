@@ -32,19 +32,19 @@ input =$2
 case $input in
     abc) 
         echo "im in abc"
-        exit 1
+        exit 0
         ;;
     def)
         echo "im in def"
-        exit 1
+        exit 0
         ;;
     ghi)
         echo "Im in ghi"
-        exit 1
+        exit 0
         ;;
     super)
         echo "Im in super case"
-        exit 1
+        exit 0
         ;;
     *)
         echo "Im in default case"
