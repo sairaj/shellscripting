@@ -28,7 +28,7 @@ esac
 
 # Range of the exit code is 0 to 255, whilst 0 is success code and rest of them are either partially failure or failure, or partially success
 
-$input =$2
+input =$2
 case $input in
     abc) 
         echo "im in abc"
