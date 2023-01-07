@@ -28,6 +28,10 @@ c=$1
 #     echo "value is not 10 or 20 or 30"
 # fi
 
+if [ -z "$c" ]; then
+    echo -e "\e[31m Please provide input number \e[0m"
+    exit 0
+fi
 
 if [ "$c" -lt "10" ]; then
     echo "Value is less than 10"
