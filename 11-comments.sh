@@ -7,4 +7,4 @@ echo $a
 COMMENT
 echo "Devops comments demonstration"
 
-echo "<<COMMENT\n This is new way of commenting \nCOMMENT"
+echo -e "<<COMMENT\n This is new way of commenting \nCOMMENT"
